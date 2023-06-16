@@ -1,2 +1,2 @@
 #!/bin/bash
-main.c=${CFILE%.c}; gcc -c $CFILE -o $main.o
+gcc -c $CFILE
