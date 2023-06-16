@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c  $CFILE -o $(basename $CFILE.c).o
+main.c=${CFILE%.c}; gcc -c $CFILE -o $main.o
