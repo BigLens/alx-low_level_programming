@@ -1,14 +1,13 @@
 #include "main.h"
 /**
- * main - Entry
+ * main - print a string to output
  *
- * Return: Always 0 (Success)
+ * Return: always 0 (success)
  */
 int main(void)
 {
 	char putchar[] = "_putchar";
 	int i = 0;
-
 
 	while (putchar[i] != '\0')
 	{
@@ -16,5 +15,6 @@ int main(void)
 		i++;
 	}
 	_putchar('\n');
+
 	return (0);
 }
